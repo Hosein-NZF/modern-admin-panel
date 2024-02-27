@@ -1,0 +1,1 @@
+import{_ as n,a as t,c as a,w as c,o as _,b as s,s as r}from"./entry.8441bd46.js";const p={};function l(f,m){const e=r,o=t("v-app");return _(),a(o,null,{default:c(()=>[s(e)]),_:1})}const x=n(p,[["render",l]]);export{x as default};
