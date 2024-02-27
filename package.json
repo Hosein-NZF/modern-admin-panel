@@ -5,7 +5,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@mdi/font": "^6.5.95",
@@ -19,6 +20,7 @@
     "vuetify": "^3.5.5"
   },
   "devDependencies": {
-    "nuxt": "3.7.4"
+    "nuxt": "3.7.4",
+    "push-dir": "^0.4.1"
   }
 }
